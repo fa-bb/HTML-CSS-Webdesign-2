@@ -90,8 +90,65 @@
       </tr>
     </table>
 
-    
 
+    <form action="Hello.php" method="post" name="contact-form">
+      name:  <input type="text" placeholder="name?">
+      <br>
+      <br>
+      gender: 
+      <input type="radio" name="gender" value="man">man
+      <input type="radio" name="gender" value="woman" checked >woman
+      <input type="radio" name="gender" value="other">other
+      <br> 
+      <br>
+      color: 
+      <input type="checkbox" name="color" value="red" checked>Red
+      <input type="checkbox" name="color" value="red" >Blue
+      <input type="checkbox" name="color" value="red" >Yellow
+      <input type="checkbox" name="color" value="red" >Green
+
+      <br> 
+      <br>
+      bloodtype:  
+      <select name="bloodtype">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="O">O</option>
+        <option value="AB">AB</option>
+        <option value="unknown">unknown</option>
+      </select>
+
+      <input type="submit" value ="Do it!!!">
+      <br>
+      <br>
+      <input type="image" src ="button.png" value ="Do it!!!" width="100" hight="100">
+      <br>
+      <br>
+      <textarea name="message">write message</textarea>
+      <br>
+      <br>
+      <textarea name="message2" placeholder= "input message"></textarea>
+
+      <input type="checkbox" name="travel" value="Japan" id="Japan">
+      <label for="Japan">Japan</label>
+      <input type="checkbox" name="travel" value="EU" id="EU">
+      <label for="EU">EU</label>
+      <input type="checkbox" name="travel" value="Asia" id="Asia">
+      <label for="Asia">Asia</label>
+      <input type="checkbox" name="travel" value="America" id="America">
+      <!-- <label for="America">America</label> -->
+      <label >America</label>
+
+      <article>
+        <h1>明日の天気</h1>
+        <p>明日は曇りのち晴れでしょう</p>
+      </article>
+      <article>
+        <h2>お勧めの着こなし</h2>
+        <p>もう11月で寒いので羽織る服が必ず必要になります</p>
+      </article>
+
+    </form>
 
   </body>
 </html>

@@ -5,7 +5,16 @@ html{
 }
 
 body{
-  background-color:#fee;
+  /* background-color:#fee; */
+  /* background-image: url(images/bg-airplane.jpg); */
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-position: top center; */
+  background-position: 30px 80px;
+
+
 }
 
 h1 {
@@ -22,13 +31,40 @@ h2 {
 
 p {
   font-size:20px;
-  color: rgba{10,130,165,.5};
+  color: {10,130,165,.5};
   font-family: "Hiragino Maru Gothic Pro",sans-serif;
   font-weight: bold;
   line-height: 1.7;
   text-align: justify;
 }
 
+div{
+  /* background: #70a2dc url(images/bg-airplane.jpg) no-repeat center bottom/cover; */
+  background: #0bd;
+  margin: 100px 0 0 80px;
+  width:500px;
+  height:300px;
+}
+
 div p{
-  color:red;
+  color:black;
+  /* border-width: thick; */
+  border-width: 4px 4px 8px 12px;
+  /* border-style: solid; */
+  /* border-style: dotted; */
+  /* border-style: ridge; */
+  border-style: outset;
+  border-color: tomato;
+  border-color: tan #0bd tomato #000;
+
+  border: 5px dotted tomato
+}
+
+ul{
+  list-style-type: square;
+  list-style-type: disc;
+  list-style-type: circle;
+  /* list-style-type: none; */
+
+  list-style-position: inside;
 }

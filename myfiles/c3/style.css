@@ -36,9 +36,26 @@ p {
   font-weight: bold;
   line-height: 1.7;
   text-align: justify;
+  color: #999;
 }
 
-div{
+.blue{
+  color: #0bd;
+}
+
+.small{
+  font-size:80%;
+}
+
+#orange{
+  color: #fa2;
+}
+
+p.pink{
+  color:pink;
+}
+
+div#first{
   /* background: #70a2dc url(images/bg-airplane.jpg) no-repeat center bottom/cover; */
   background: #0bd;
   margin: 100px 0 0 80px;
@@ -61,10 +78,31 @@ div p{
 }
 
 ul{
-  list-style-type: square;
-  list-style-type: disc;
-  list-style-type: circle;
-  /* list-style-type: none; */
+  list-style-image: url(images/star.png);
+}
 
-  list-style-position: inside;
+.pika{
+  list-style-image: url(images/pika.png);
+  margin: 10px 0 0 40px;
+}
+.iv{
+  list-style-image: url(images/iv.png);
+  margin: 10px 0 0 40px;
+}
+
+
+div#container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: row-reverse; */
+}
+
+.item{
+  background: #0bd;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
 }
